@@ -1,0 +1,62 @@
+{
+  "name": "@boldreports/angular-reporting-components",
+  "version": "2.1.14",
+  "description": "The Bold Reports by Syncfuion components for Angular contains ReportViewer and ReportDesigner reporting components for enterprise web development",
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "build": "npm run build:aot",
+    "tsc": "tsc",
+    "build:aot": "ngc -p ./tsconfig-aot.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boldreports/angular-reporting-components.git"
+  },
+  "author": "Syncfusion Inc",
+  "license": "SEE LICENSE IN README.md",
+  "keywords": [
+    "Bold Reports",
+    "Bold Report Viewer",
+    "Bold Report Designer",
+    "Report Viewer",
+    "Report Designer",
+    "Report Editor",
+    "Report Builder",
+    "SSRS",
+    "Angular Components",
+    "Reporting Tool",
+    "Syncfusion",
+    "UI Components",
+    "Web",
+    "Reports",
+    "RDL",
+    "RDLC",
+    "RDLC Viewer",
+    "RDL Viewer"
+  ],
+  "bugs": {
+    "url": "https://github.com/boldreports/angular-reporting-components/issues"
+  },
+  "main": "./index.js",
+  "typings": "./index.d.ts",
+  "dependencies": {
+    "@boldreports/javascript-reporting-controls": "*"
+  },
+  "devDependencies": {
+    "@angular/common": "5.0.0",
+    "@angular/compiler": "5.0.0",
+    "@angular/compiler-cli": "5.0.0",
+    "@angular/core": "5.0.0",
+    "@angular/forms": "5.0.0",
+    "@types/ej.web.all": "*",
+    "@types/jquery": "2.0.34",
+    "@types/node": "6.0.52",
+    "rxjs": "5.5.2",
+    "zone.js": "^0.8.4",
+    "codelyzer": "^0.0.28",
+    "tslint": "^3.15.1",
+    "typescript": "2.4.2",
+    "typings": "^1.0.4"
+  },
+  "homepage": "https://boldreports.com"
+}
