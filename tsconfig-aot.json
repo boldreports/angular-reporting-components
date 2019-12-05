@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "declaration": true,
+        "outDir": "./",
+        "stripInternal": true,
+        "typeRoots": [
+            "node_modules/@types/"
+        ],
+        "types": [
+            "jquery",
+            "ej.web.all",
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "index.ts"
+    ],
+    "angularCompilerOptions": {
+        "skipTemplateCodegen": true
+    }
+}

@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+.npmignore
+
+#IGNORE TypeScript source files
+src/*.ts
+!src/*.d.ts
+index.ts
