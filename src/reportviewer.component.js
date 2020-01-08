@@ -82,6 +82,7 @@ var BoldReportViewerComponent = (function (_super) {
         "enableNotificationBar_input": [{ type: core_2.Input, args: ['enableNotificationBar',] },],
         "enableDropDownSearch_input": [{ type: core_2.Input, args: ['enableDropDownSearch',] },],
         "enablePageVirtualization_input": [{ type: core_2.Input, args: ['enablePageVirtualization',] },],
+        "waitingPopupTemplate_input": [{ type: core_2.Input, args: ['waitingPopupTemplate',] },],
         "dataSources_name_input": [{ type: core_2.Input, args: ['dataSources.name',] },],
         "dataSources_value_input": [{ type: core_2.Input, args: ['dataSources.value',] },],
         "exportSettings_exportOptions_input": [{ type: core_2.Input, args: ['exportSettings.exportOptions',] },],

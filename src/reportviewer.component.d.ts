@@ -31,6 +31,7 @@ export declare class BoldReportViewerComponent extends BoldReportComponents<any,
     enableNotificationBar_input: any;
     enableDropDownSearch_input: any;
     enablePageVirtualization_input: any;
+    waitingPopupTemplate_input: any;
     dataSources_name_input: any;
     dataSources_value_input: any;
     exportSettings_exportOptions_input: any;
