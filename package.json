@@ -1,16 +1,13 @@
 {
   "name": "@boldreports/angular-reporting-components",
-  "version": "2.2.23",
+  "version": "2.2.28",
   "description": "The Bold Reports by Syncfuion components for Angular contains ReportViewer and ReportDesigner reporting components for enterprise web development",
-  "scripts": {
-    "lint": "tslint src/**/*.ts",
-    "build": "npm run build:aot",
-    "tsc": "tsc",
-    "build:aot": "ngc -p ./tsconfig-aot.json"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boldreports/angular-reporting-components.git"
+  },
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json"
   },
   "author": "Syncfusion Inc",
   "license": "SEE LICENSE IN README.md",
@@ -37,26 +34,29 @@
   "bugs": {
     "url": "https://github.com/boldreports/angular-reporting-components/issues"
   },
-  "main": "./index.js",
-  "typings": "./index.d.ts",
   "dependencies": {
     "@boldreports/javascript-reporting-controls": "*"
   },
   "devDependencies": {
-    "@angular/common": "5.0.0",
-    "@angular/compiler": "5.0.0",
-    "@angular/compiler-cli": "5.0.0",
-    "@angular/core": "5.0.0",
-    "@angular/forms": "5.0.0",
-    "@types/ej.web.all": "*",
-    "@types/jquery": "2.0.34",
-    "@types/node": "6.0.52",
-    "rxjs": "5.5.2",
-    "zone.js": "^0.8.4",
-    "codelyzer": "^0.0.28",
-    "tslint": "^3.15.1",
-    "typescript": "2.4.2",
-    "typings": "^1.0.4"
+    "@angular/common": "2.2.1 - 4.10.0",
+    "@angular/compiler": "2.2.1 - 4.10.0",
+    "@angular/core": "2.2.1 - 4.10.0",
+    "@angular/forms": "2.2.1 - 4.10.0",
+    "@angular/http": "2.2.1 - 4.10.0",
+    "@angular/platform-browser": "2.2.1 - 4.10.0",
+    "@angular/platform-browser-dynamic": "2.2.1 - 4.10.0",
+    "@angular/router": "2.2.1 - 4.10.0",
+    "@angular/compiler-cli": "2.2.1 - 4.10.0",
+    "@angular/platform-server": "2.2.1 - 4.10.0",
+    "@angular-devkit/schematics": "0.7.2",
+    "rxjs": "5.0.0 - 5.5.10",
+    "zone.js": "0.7.2 - 0.8.26",
+    "ng-packagr": "1.5.0",
+    "@types/ej.web.all": "^17.4.0",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1"
   },
-  "homepage": "https://boldreports.com"
+  "homepage": "https://boldreports.com",
+  "sideEffects": true
 }
