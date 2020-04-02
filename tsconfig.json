@@ -1,13 +1,16 @@
-﻿{
+{
+  "compileOnSave": false,
   "compilerOptions": {
-    "noImplicitAny": false,
-    "module": "commonjs",
-    "target": "ES5",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
     "sourceMap": true,
-    "declaration": true,
-    "outDir": "./",
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
     "typeRoots": [
       "node_modules/@types/"
     ],
@@ -15,10 +18,15 @@
       "jquery",
       "ej.web.all",
       "node"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
     ]
   },
-  "exclude": [
-    "node_modules",
-    "bold.angular2.d.ts"
-  ]
+  "angularCompilerOptions": {
+    "enableIvy": false,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
 }
