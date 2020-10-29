@@ -1,6 +1,6 @@
 {
   "name": "@boldreports/angular-reporting-components",
-  "version": "2.3.39",
+  "version": "2.4.10",
   "description": "The Bold Reports by Syncfuion components for Angular contains ReportViewer and ReportDesigner reporting components for enterprise web development",
   "repository": {
     "type": "git",
@@ -55,7 +55,7 @@
     "@types/ej.web.all": "^17.4.0",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1"
+    "@types/node": "12.11.1"
   },
   "homepage": "https://boldreports.com",
   "sideEffects": true
