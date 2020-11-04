@@ -1,7 +1,6 @@
 import { BoldReportComponents } from './core';
 // tslint:disable-next-line:max-line-length
 import { EventEmitter, IterableDiffers, KeyValueDiffers, Component, ElementRef, ChangeDetectorRef, Input, Output } from '@angular/core';
-
 @Component({
     selector: 'bold-reportviewer',
     template: ''})
@@ -38,6 +37,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('exportSettings.excelFormat') exportSettings_excelFormat_input: any;
 	@Input('exportSettings.wordFormat') exportSettings_wordFormat_input: any;
 	@Input('exportSettings.customItems') exportSettings_customItems_input: any;
+	@Input('exportSettings.imageQuality') exportSettings_imageQuality_input: any;
 	@Input('pageSettings.orientation') pageSettings_orientation_input: any;
 	@Input('pageSettings.paperSize') pageSettings_paperSize_input: any;
 	@Input('pageSettings.height') pageSettings_height_input: any;
@@ -53,7 +53,12 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('parameterSettings.popupWidth') parameterSettings_popupWidth_input: any;
 	@Input('parameterSettings.itemWidth') parameterSettings_itemWidth_input: any;
 	@Input('parameterSettings.labelWidth') parameterSettings_labelWidth_input: any;
+	@Input('parameterSettings.minDateTime') parameterSettings_minDateTime_input: any;
+	@Input('parameterSettings.maxDateTime') parameterSettings_maxDateTime_input: any;
 	@Input('parameterSettings.hideParameterBlock') parameterSettings_hideParameterBlock_input: any;
+	@Input('parameterSettings.dateTimeFormat') parameterSettings_dateTimeFormat_input: any;
+	@Input('parameterSettings.timeDisplayFormat') parameterSettings_timeDisplayFormat_input: any;
+	@Input('parameterSettings.timeInterval') parameterSettings_timeInterval_input: any;
 	@Input('toolbarSettings.click') toolbarSettings_click_input: any;
 	@Input('toolbarSettings.items') toolbarSettings_items_input: any;
 	@Input('toolbarSettings.showToolbar') toolbarSettings_showToolbar_input: any;
@@ -81,6 +86,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Output('toolBarItemClick') toolBarItemClick_output : any = new EventEmitter();
 	@Output('hyperlink') hyperlink_output : any = new EventEmitter();
 	@Output('reportPrint') reportPrint_output : any = new EventEmitter();
+	@Output('beforeParameterAdd') beforeParameterAdd_output : any = new EventEmitter();
 
     // tslint:disable-next-line:max-line-length
     constructor(public el: ElementRef, public cdRef: ChangeDetectorRef, private _ejIterableDiffers: IterableDiffers, private _ejkeyvaluediffers: KeyValueDiffers) {

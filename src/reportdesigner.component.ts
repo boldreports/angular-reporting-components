@@ -1,7 +1,6 @@
 import { BoldReportComponents } from './core';
 // tslint:disable-next-line:max-line-length
 import { EventEmitter, IterableDiffers, KeyValueDiffers, Component, ElementRef, ChangeDetectorRef, Input, Output } from '@angular/core';
-
 @Component({
     selector: 'bold-reportdesigner',
     template: ''})
@@ -13,6 +12,7 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('reportDataExtensions') reportDataExtensions_input: any;
 	@Input('reportItemExtensions') reportItemExtensions_input: any;
 	@Input('reportPath') reportPath_input: any;
+	@Input('reportVersion') reportVersion_input: any;
 	@Input('reportType') reportType_input: any;
 	@Input('reportServerUrl') reportServerUrl_input: any;
 	@Input('serviceAuthorizationToken') serviceAuthorizationToken_input: any;
