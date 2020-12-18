@@ -59,6 +59,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('parameterSettings.dateTimeFormat') parameterSettings_dateTimeFormat_input: any;
 	@Input('parameterSettings.timeDisplayFormat') parameterSettings_timeDisplayFormat_input: any;
 	@Input('parameterSettings.timeInterval') parameterSettings_timeInterval_input: any;
+	@Input('parameterSettings.accessInternalValue') parameterSettings_accessInternalValue_input: any;
 	@Input('toolbarSettings.click') toolbarSettings_click_input: any;
 	@Input('toolbarSettings.items') toolbarSettings_items_input: any;
 	@Input('toolbarSettings.showToolbar') toolbarSettings_showToolbar_input: any;
