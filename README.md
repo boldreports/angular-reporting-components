@@ -4,14 +4,6 @@ The `Bold Reports` UI components for Angular contains `Report Viewer` and `Repor
 
 ![Bold Reports Angular Reporting Tool](https://demos.boldreports.com/Images/report-platform.gif)
 
-## Development
-
-To generate dist folder, execute the following command.
-
-```bash
-$ npm run build
-```
-
 ## Demos
 
 ### Online Demos

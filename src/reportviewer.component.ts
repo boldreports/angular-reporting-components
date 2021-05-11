@@ -6,7 +6,6 @@ import { EventEmitter, IterableDiffers, KeyValueDiffers, Component, ElementRef, 
     template: ''})
 export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('dataSources') dataSources_input: any;
-	@Input('enablePageCache') enablePageCache_input: any;
 	@Input('exportSettings') exportSettings_input: any;
 	@Input('isResponsive') isResponsive_input: any;
 	@Input('locale') locale_input: any;
@@ -29,7 +28,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('autoRender') autoRender_input: any;
 	@Input('enableNotificationBar') enableNotificationBar_input: any;
 	@Input('enableDropDownSearch') enableDropDownSearch_input: any;
-	@Input('enablePageVirtualization') enablePageVirtualization_input: any;
+	@Input('enableVirtualEvaluation') enableVirtualEvaluation_input: any;
 	@Input('waitingPopupTemplate') waitingPopupTemplate_input: any;
 	@Input('dataSources.name') dataSources_name_input: any;
 	@Input('dataSources.value') dataSources_value_input: any;
