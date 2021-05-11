@@ -6,6 +6,8 @@ import { EventEmitter, IterableDiffers, KeyValueDiffers, Component, ElementRef, 
     template: ''})
 export class BoldReportDesignerComponent extends BoldReportComponents<any, any> {
 	@Input('configurePaneSettings') configurePaneSettings_input: any;
+	@Input('enableImpersonate') enableImpersonate_input: any;
+	@Input('fontNames') fontNames_input: any;
 	@Input('locale') locale_input: any;
 	@Input('permissionSettings') permissionSettings_input: any;
 	@Input('previewOptions') previewOptions_input: any;
