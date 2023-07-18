@@ -1,7 +1,8 @@
 import {
     EventEmitter, QueryList, ElementRef, SimpleChange,
     ChangeDetectorRef, IterableDiffers, KeyValueDiffers, OnInit,
-    DoCheck, AfterContentInit, AfterViewInit, OnChanges, AfterContentChecked, OnDestroy
+    DoCheck, AfterContentInit, AfterViewInit, OnChanges, AfterContentChecked, OnDestroy, Injectable
+
 } from '@angular/core';
 
 export { ContentChild, Type, forwardRef } from '@angular/core';
@@ -25,6 +26,7 @@ export interface IChangeSet {
 
 let firstVal = {};
 
+@Injectable()
 /** Internal Helpers */
 export class Utils {
     static IterateAndGetChanges(obj: IParentTag): IChangeSet {
@@ -43,6 +45,7 @@ export class Utils {
 
 }
 
+@Injectable()
 // tslint:disable-next-line:max-line-length
 export class BoldReportComponents<W, T> implements IParentTag, OnInit, AfterContentInit, DoCheck, AfterViewInit, OnChanges, AfterContentChecked, OnDestroy {
     public model: T = <T>{};
@@ -260,6 +263,7 @@ export class BoldReportComponents<W, T> implements IParentTag, OnInit, AfterCont
     }
 }
 
+@Injectable()
 export class ComplexTagElement implements OnInit, OnChanges, AfterContentChecked {
     recentChanges: any;
     hasChanges: boolean;
@@ -353,6 +357,7 @@ export class ComplexTagElement implements OnInit, OnChanges, AfterContentChecked
     }
 }
 
+@Injectable()
 export class ArrayTagElement<T extends ComplexTagElement> implements AfterContentInit, AfterContentChecked {
     list: Array<T>;
     children: QueryList<T>;
