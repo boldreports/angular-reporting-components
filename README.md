@@ -1,16 +1,8 @@
 ## Bold Reports Angular UI Components
 
-The `Bold Reports` UI components for Angular contains [Report Viewer](https://www.boldreports.com/embedded-reporting/angular-report-viewer) and [Report Designer](https://www.boldreports.com/embedded-reporting/angular-report-designer) Angular components for enterprise web development. Empower your web application with feature-rich report preview, edit, and customization capabilities that allow you to explore data easily and make real-time decisions. Effortlessly print and export reports.
+The `Bold Reports` UI components contains [Angular Report Viewer](https://www.boldreports.com/embedded-reporting/angular-report-viewer) and [Angular Report Designer](https://www.boldreports.com/embedded-reporting/angular-report-designer) reporting components for enterprise web development. Empower your web application with feature-rich report preview, edit, and customization capabilities that allow you to explore data easily and make real-time decisions. Effortlessly print and export reports.
 
 ![Bold Reports Angular Reporting Tool](https://demos.boldreports.com/Images/report-platform.gif)
-
-## Development
-
-To generate dist folder, execute the following command.
-
-```bash
-$ npm run build
-```
 
 ## Demos
 
@@ -32,7 +24,7 @@ In case of any questions regarding the use of `Bold Reports Angular`, please [co
 
 ## Release Notes
 
-Refer the `Bold Reports Angular` Product Release Notes in [online Release Notes at Syncfusion](https://www.boldreports.com/release-history/).
+Refer to the online `Bold Reports Angular Product` [Release Notes](https://www.boldreports.com/release-history/).
 
 ## License Information
 

@@ -68,6 +68,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('parameterSettings.accessInternalValue') parameterSettings_accessInternalValue_input: any;
 	@Input('toolbarSettings.click') toolbarSettings_click_input: any;
 	@Input('toolbarSettings.items') toolbarSettings_items_input: any;
+	@Input('toolbarSettings.toolbars') toolbarSettings_toolbars_input: any;
 	@Input('toolbarSettings.showToolbar') toolbarSettings_showToolbar_input: any;
 	@Input('toolbarSettings.showTooltip') toolbarSettings_showTooltip_input: any;
 	@Input('toolbarSettings.templateId') toolbarSettings_templateId_input: any;
