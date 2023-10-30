@@ -96,6 +96,8 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Output('saveReportClick') saveReportClick_output : any = new EventEmitter();
 	@Output('toolbarClick') toolbarClick_output : any = new EventEmitter();
 	@Output('toolbarRendering') toolbarRendering_output : any = new EventEmitter();
+	@Output('encryptData') encryptData_output : any = new EventEmitter();
+	@Output('decryptData') decryptData_output : any = new EventEmitter();
 
     // tslint:disable-next-line:max-line-length
     constructor(public el: ElementRef, public cdRef: ChangeDetectorRef, private _ejIterableDiffers: IterableDiffers, private _ejkeyvaluediffers: KeyValueDiffers) {

@@ -1,6 +1,6 @@
 {
   "name": "@boldreports/angular-reporting-components",
-  "version": "5.2.26",
+  "version": "2.2.23",
   "description": "The Bold Reports by Syncfuion components for Angular contains ReportViewer and ReportDesigner reporting components for enterprise web development",
   "repository": {
     "type": "git",
@@ -35,14 +35,14 @@
     "url": "https://github.com/boldreports/angular-reporting-components/issues"
   },
   "dependencies": {
-    "@boldreports/javascript-reporting-controls": "*"
+    "@boldreports/javascript-reporting-controls": "1.0.5"
   },
   "devDependencies": {
-    "@angular/common": "12.0.0 - 16.1.2",
-    "@angular/core": "12.0.0 - 16.1.2",
-    "@angular/compiler-cli": "12.0.0 - 16.1.2",
-    "@angular/compiler": "12.0.0 - 16.1.2",
-    "ng-packagr": "16.1.0",
+    "@angular/common": "13.0.0",
+    "@angular/core": "13.0.0",
+    "@angular/compiler-cli": "13.0.0",
+    "@angular/compiler": "13.0.0",
+    "ng-packagr": "13.0.0 ",
     "@types/ej.web.all": "^17.4.0",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
