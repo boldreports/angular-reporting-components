@@ -63,6 +63,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('parameterSettings.labelWidth') parameterSettings_labelWidth_input: any;
 	@Input('parameterSettings.minDateTime') parameterSettings_minDateTime_input: any;
 	@Input('parameterSettings.maxDateTime') parameterSettings_maxDateTime_input: any;
+	@Input('parameterSettings.hideTooltip') parameterSettings_hideTooltip_input: any;
 	@Input('parameterSettings.hideParameterBlock') parameterSettings_hideParameterBlock_input: any;
 	@Input('parameterSettings.dateTimeFormat') parameterSettings_dateTimeFormat_input: any;
 	@Input('parameterSettings.timeDisplayFormat') parameterSettings_timeDisplayFormat_input: any;
@@ -73,6 +74,8 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('toolbarSettings.toolbars') toolbarSettings_toolbars_input: any;
 	@Input('toolbarSettings.showToolbar') toolbarSettings_showToolbar_input: any;
 	@Input('toolbarSettings.showTooltip') toolbarSettings_showTooltip_input: any;
+	@Input('toolbarSettings.autoHide') toolbarSettings_autoHide_input: any;
+	@Input('toolbarSettings.autoHideDelay') toolbarSettings_autoHideDelay_input: any;
 	@Input('toolbarSettings.templateId') toolbarSettings_templateId_input: any;
 	@Input('toolbarSettings.customItems') toolbarSettings_customItems_input: any;
 	@Input('toolbarSettings.customGroups') toolbarSettings_customGroups_input: any;
