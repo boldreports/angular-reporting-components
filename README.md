@@ -8,7 +8,7 @@ The `Bold Reports` UI components contains [Angular Report Viewer](https://www.bo
 
 ### Online Demos
 
-Take a look at the `Bold Reports Angular` live demo [here](https://demos.boldreports.com/home/).
+Take a look at the `Bold Reports Angular` live demo [here](https://demos.boldreports.com/home/index.html?utm_source=github&utm_medium=backlinks).
 
 ## Documentation
 
