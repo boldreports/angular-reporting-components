@@ -29,6 +29,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('autoRender') autoRender_input: any;
 	@Input('enableNotificationBar') enableNotificationBar_input: any;
 	@Input('enableDropDownSearch') enableDropDownSearch_input: any;
+	@Input('enablePopupResize') enablePopupResize_input: any;
 	@Input('enableVirtualEvaluation') enableVirtualEvaluation_input: any;
 	@Input('smartRendering') smartRendering_input: any;
 	@Input('waitingPopupTemplate') waitingPopupTemplate_input: any;
