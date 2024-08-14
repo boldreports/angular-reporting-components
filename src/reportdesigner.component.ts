@@ -59,6 +59,7 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('previewOptions.enableParameterBlockScroller') previewOptions_enableParameterBlockScroller_input: any;
 	@Input('previewOptions.enableDatasourceBlockScroller') previewOptions_enableDatasourceBlockScroller_input: any;
 	@Input('previewOptions.enableDropDownSearch') previewOptions_enableDropDownSearch_input: any;
+	@Input('previewOptions.enablePopupResize') previewOptions_enablePopupResize_input: any;
 	@Input('previewOptions.exportSettings') previewOptions_exportSettings_input: any;
 	@Input('previewOptions.pageSettings') previewOptions_pageSettings_input: any;
 	@Input('previewOptions.parameters') previewOptions_parameters_input: any;
