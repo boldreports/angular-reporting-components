@@ -29,7 +29,6 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('autoRender') autoRender_input: any;
 	@Input('enableNotificationBar') enableNotificationBar_input: any;
 	@Input('enableDropDownSearch') enableDropDownSearch_input: any;
-	@Input('enablePopupResize') enablePopupResize_input: any;
 	@Input('enableVirtualEvaluation') enableVirtualEvaluation_input: any;
 	@Input('smartRendering') smartRendering_input: any;
 	@Input('waitingPopupTemplate') waitingPopupTemplate_input: any;
@@ -52,6 +51,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('pageSettings.height') pageSettings_height_input: any;
 	@Input('pageSettings.width') pageSettings_width_input: any;
 	@Input('pageSettings.margins') pageSettings_margins_input: any;
+	@Input('pageSettings.hidePageOrientation') pageSettings_hidePageOrientation_input: any;
 	@Input('parameters.labels') parameters_labels_input: any;
 	@Input('parameters.name') parameters_name_input: any;
 	@Input('parameters.nullable') parameters_nullable_input: any;
@@ -66,6 +66,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('parameterSettings.minDateTime') parameterSettings_minDateTime_input: any;
 	@Input('parameterSettings.maxDateTime') parameterSettings_maxDateTime_input: any;
 	@Input('parameterSettings.hideTooltip') parameterSettings_hideTooltip_input: any;
+	@Input('parameterSettings.enablePopupResize') parameterSettings_enablePopupResize_input: any;
 	@Input('parameterSettings.hideParameterBlock') parameterSettings_hideParameterBlock_input: any;
 	@Input('parameterSettings.dateTimeFormat') parameterSettings_dateTimeFormat_input: any;
 	@Input('parameterSettings.timeDisplayFormat') parameterSettings_timeDisplayFormat_input: any;

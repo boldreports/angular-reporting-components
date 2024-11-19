@@ -40,6 +40,7 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('pageSettings.height') pageSettings_height_input: any;
 	@Input('pageSettings.width') pageSettings_width_input: any;
 	@Input('pageSettings.margins') pageSettings_margins_input: any;
+	@Input('pageSettings.hidePageOrientation') pageSettings_hidePageOrientation_input: any;
 	@Input('parameters.labels') parameters_labels_input: any;
 	@Input('parameters.name') parameters_name_input: any;
 	@Input('parameters.nullable') parameters_nullable_input: any;
@@ -59,7 +60,6 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('previewOptions.enableParameterBlockScroller') previewOptions_enableParameterBlockScroller_input: any;
 	@Input('previewOptions.enableDatasourceBlockScroller') previewOptions_enableDatasourceBlockScroller_input: any;
 	@Input('previewOptions.enableDropDownSearch') previewOptions_enableDropDownSearch_input: any;
-	@Input('previewOptions.enablePopupResize') previewOptions_enablePopupResize_input: any;
 	@Input('previewOptions.exportSettings') previewOptions_exportSettings_input: any;
 	@Input('previewOptions.pageSettings') previewOptions_pageSettings_input: any;
 	@Input('previewOptions.parameters') previewOptions_parameters_input: any;
