@@ -11,6 +11,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('locale') locale_input: any;
 	@Input('pageSettings') pageSettings_input: any;
 	@Input('parameters') parameters_input: any;
+	@Input('extendedAttributes') extendedAttributes_input: any;
 	@Input('toolbarSettings') toolbarSettings_input: any;
 	@Input('parameterSettings') parameterSettings_input: any;
 	@Input('printMode') printMode_input: any;
