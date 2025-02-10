@@ -23,6 +23,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('reportServiceUrl') reportServiceUrl_input: any;
 	@Input('zoomFactor') zoomFactor_input: any;
 	@Input('serviceAuthorizationToken') serviceAuthorizationToken_input: any;
+	@Input('embedToken') embedToken_input: any;
 	@Input('toolbarRenderMode') toolbarRenderMode_input: any;
 	@Input('enableParameterBlockScroller') enableParameterBlockScroller_input: any;
 	@Input('enableDatasourceBlockScroller') enableDatasourceBlockScroller_input: any;
@@ -53,6 +54,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('pageSettings.width') pageSettings_width_input: any;
 	@Input('pageSettings.margins') pageSettings_margins_input: any;
 	@Input('pageSettings.hidePageOrientation') pageSettings_hidePageOrientation_input: any;
+	@Input('pageSettings.hidePagePaperSizes') pageSettings_hidePagePaperSizes_input: any;
 	@Input('parameters.labels') parameters_labels_input: any;
 	@Input('parameters.name') parameters_name_input: any;
 	@Input('parameters.nullable') parameters_nullable_input: any;

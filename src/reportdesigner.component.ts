@@ -6,7 +6,9 @@ import { EventEmitter, IterableDiffers, KeyValueDiffers, Component, ElementRef, 
     template: ''})
 export class BoldReportDesignerComponent extends BoldReportComponents<any, any> {
 	@Input('configurePaneSettings') configurePaneSettings_input: any;
+	@Input('dataTabIndex') dataTabIndex_input: any;
 	@Input('disableCodeModule') disableCodeModule_input: any;
+	@Input('embedToken') embedToken_input: any;
 	@Input('enableImpersonate') enableImpersonate_input: any;
 	@Input('enableImageBlobing') enableImageBlobing_input: any;
 	@Input('enableTableMultipleDataAssign') enableTableMultipleDataAssign_input: any;
@@ -26,7 +28,7 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('serviceUrl') serviceUrl_input: any;
 	@Input('toolbarSettings') toolbarSettings_input: any;
 	@Input('waitingPopupTemplate') waitingPopupTemplate_input: any;
-	@Input('dataTabIndex') dataTabIndex_input: any;
+	@Input('zoomFactor') zoomFactor_input: any;
 	@Input('configurePaneSettings.items') configurePaneSettings_items_input: any;
 	@Input('configurePaneSettings.showPane') configurePaneSettings_showPane_input: any;
 	@Input('dataSources.name') dataSources_name_input: any;
