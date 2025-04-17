@@ -8,6 +8,8 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('configurePaneSettings') configurePaneSettings_input: any;
 	@Input('dataTabIndex') dataTabIndex_input: any;
 	@Input('disableCodeModule') disableCodeModule_input: any;
+	@Input('enableRuler') enableRuler_input: any;
+	@Input('enablePageMargin') enablePageMargin_input: any;
 	@Input('embedToken') embedToken_input: any;
 	@Input('enableImpersonate') enableImpersonate_input: any;
 	@Input('enableImageBlobing') enableImageBlobing_input: any;
@@ -80,6 +82,7 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('reportItemExtensions.imageClass') reportItemExtensions_imageClass_input: any;
 	@Input('reportItemExtensions.displayName') reportItemExtensions_displayName_input: any;
 	@Input('reportItemExtensions.category') reportItemExtensions_category_input: any;
+	@Input('reportItemExtensions.allowHeaderFooter') reportItemExtensions_allowHeaderFooter_input: any;
 	@Input('toolbarSettings.items') toolbarSettings_items_input: any;
 	@Input('toolbarSettings.showToolbar') toolbarSettings_showToolbar_input: any;
 	@Input('toolbarSettings.templateId') toolbarSettings_templateId_input: any;
