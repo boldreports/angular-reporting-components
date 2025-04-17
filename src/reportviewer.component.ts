@@ -93,6 +93,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Output('reportError') reportError_output : any = new EventEmitter();
 	@Output('reportExport') reportExport_output : any = new EventEmitter();
 	@Output('reportLoaded') reportLoaded_output : any = new EventEmitter();
+	@Output('reportCanceled') reportCanceled_output : any = new EventEmitter();
 	@Output('showError') showError_output : any = new EventEmitter();
 	@Output('viewReportClick') viewReportClick_output : any = new EventEmitter();
 	@Output('ajaxBeforeLoad') ajaxBeforeLoad_output : any = new EventEmitter();
