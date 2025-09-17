@@ -73,6 +73,8 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('previewOptions.sizeToReportContent') previewOptions_sizeToReportContent_input: any;
 	@Input('previewOptions.toolbarSettings') previewOptions_toolbarSettings_input: any;
 	@Input('previewOptions.zoomFactor') previewOptions_zoomFactor_input: any;
+	@Input('previewOptions.enableCrossDomainCookies') previewOptions_enableCrossDomainCookies_input: any;
+	@Input('previewOptions.enableCrossAxisTooltip') previewOptions_enableCrossAxisTooltip_input: any;
 	@Input('reportDataExtensions.name') reportDataExtensions_name_input: any;
 	@Input('reportDataExtensions.className') reportDataExtensions_className_input: any;
 	@Input('reportDataExtensions.imageClass') reportDataExtensions_imageClass_input: any;

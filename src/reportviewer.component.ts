@@ -36,6 +36,8 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('waitingPopupTemplate') waitingPopupTemplate_input: any;
 	@Input('enableOnScrollNavigation') enableOnScrollNavigation_input: any;
 	@Input('customBrandSettings') customBrandSettings_input: any;
+	@Input('enableCrossDomainCookies') enableCrossDomainCookies_input: any;
+	@Input('enableCrossAxisTooltip') enableCrossAxisTooltip_input: any;
 	@Input('customBrandSettings.link') customBrandSettings_link_input: any;
 	@Input('customBrandSettings.domain') customBrandSettings_domain_input: any;
 	@Input('customBrandSettings.name') customBrandSettings_name_input: any;
