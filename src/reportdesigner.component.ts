@@ -14,6 +14,8 @@ export class BoldReportDesignerComponent extends BoldReportComponents<any, any> 
 	@Input('enableImpersonate') enableImpersonate_input: any;
 	@Input('enableImageBlobing') enableImageBlobing_input: any;
 	@Input('enableTableMultipleDataAssign') enableTableMultipleDataAssign_input: any;
+	@Input('enableReportPart') enableReportPart_input: any;
+	@Input('enableParameterOperator') enableParameterOperator_input: any;
 	@Input('filterDataConnectors') filterDataConnectors_input: any;
 	@Input('filterReportItems') filterReportItems_input: any;
 	@Input('fontNames') fontNames_input: any;

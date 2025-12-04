@@ -50,6 +50,7 @@ export class BoldReportViewerComponent extends BoldReportComponents<any, any> {
 	@Input('exportSettings.customItems') exportSettings_customItems_input: any;
 	@Input('exportSettings.ImageQuality') exportSettings_ImageQuality_input: any;
 	@Input('exportSettings.UsePrintSizes') exportSettings_UsePrintSizes_input: any;
+	@Input('exportSettings.LayoutOption') exportSettings_LayoutOption_input: any;
 	@Input('pageSettings.orientation') pageSettings_orientation_input: any;
 	@Input('pageSettings.paperSize') pageSettings_paperSize_input: any;
 	@Input('pageSettings.height') pageSettings_height_input: any;
