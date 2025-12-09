@@ -38,7 +38,7 @@
     "@boldreports/javascript-reporting-controls": "12.1.12"
   },
   "devDependencies": {
-    "@angular/common": "13.0.0",
+    "@angular/common": "19.2.16",
     "@angular/core": "13.0.0",
     "@angular/compiler-cli": "13.0.0",
     "@angular/compiler": "13.0.0",
