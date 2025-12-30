@@ -38,11 +38,11 @@
     "@boldreports/javascript-reporting-controls": "12.1.12"
   },
   "devDependencies": {
-    "@angular/common": "13.0.0",
-    "@angular/core": "13.0.0",
-    "@angular/compiler-cli": "13.0.0",
-    "@angular/compiler": "13.0.0",
-    "ng-packagr": "13.0.0 ",
+    "@angular/common": "21.0.6",
+    "@angular/core": "21.0.6",
+    "@angular/compiler-cli": "21.0.6",
+    "@angular/compiler": "21.0.6",
+    "ng-packagr": "21.0.6 ",
     "@types/ej.web.all": "^17.4.0",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
