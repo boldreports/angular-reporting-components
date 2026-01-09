@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@angular/common": "21.0.6",
-    "@angular/core": "21.0.6",
+    "@angular/core": "21.0.7",
     "@angular/compiler-cli": "21.0.6",
     "@angular/compiler": "21.0.6",
     "ng-packagr": "21.0.6 ",
