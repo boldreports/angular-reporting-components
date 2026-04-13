@@ -39,9 +39,9 @@
   },
   "devDependencies": {
     "@angular/common": "13.0.0",
-    "@angular/core": "21.2.4",
+    "@angular/core": "21.2.8",
     "@angular/compiler-cli": "13.0.0",
-    "@angular/compiler": "21.2.4",
+    "@angular/compiler": "21.2.8",
     "ng-packagr": "13.0.0 ",
     "@types/ej.web.all": "^17.4.0",
     "@types/jasmine": "~3.5.0",
