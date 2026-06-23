@@ -38,10 +38,10 @@
     "@boldreports/javascript-reporting-controls": "13.1.26"
   },
   "devDependencies": {
-    "@angular/common": "19.2.19",
-    "@angular/core": "21.2.8",
+    "@angular/common": "22.0.2",
+    "@angular/core": "22.0.2",
     "@angular/compiler-cli": "13.0.0",
-    "@angular/compiler": "21.2.8",
+    "@angular/compiler": "22.0.2",
     "ng-packagr": "13.0.0 ",
     "@types/ej.web.all": "^17.4.0",
     "@types/jasmine": "~3.5.0",
